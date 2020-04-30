@@ -6,7 +6,7 @@
         <button @click="logout" class="logout-button">Log out</button>
       </span>
       <span v-else>
-        <router-link to="/">Log In</router-link>
+        <router-link to="/login" >Log In</router-link>
         <router-link to="/signup">Sign Up</router-link>
       </span>
     </div>
